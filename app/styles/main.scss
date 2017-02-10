@@ -3,6 +3,22 @@ $icon-font-path: '../fonts/';
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
+@mixin circle($size, $thickness) {
+  width: $size;
+  height: $size;
+  border-radius: 50%;
+  border: $thickness solid;
+  border-color: white;
+  margin: 20px;
+}
 body {
   background-color: black;
+}
+
+#thin {
+  @include circle(400px, 5px);
+}
+
+#thick {
+  @include circle(350px, 17px);
 }

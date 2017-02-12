@@ -10,7 +10,7 @@ An old reference to a japanese anime show called "Durarara", this web project is
   * password (JS function that tests on the password, best if it's encrypted.)
   * the actual chat application with a back-end.
 
-#### Why do you this even:
+#### Why do you do this even:
   * I like front-end.
   * I like Durarara.
   * I think those two reasons are enough haha.
